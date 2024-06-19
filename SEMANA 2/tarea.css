@@ -1,0 +1,101 @@
+.class1{
+    margin:auto;
+    margin-top: 50px;
+    border: solid blue;
+    width: 960px;
+    height: 525px;
+    background-image: url(./image\ 1.jpg);
+    color: white;
+}
+.h1{
+font-size: 64px;
+padding-left: 386px;
+padding-top: 53px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 700;
+
+
+}
+.h2{
+    font-size: 36px;
+    padding-left: 94px;
+    padding-top:150px ;
+    font-family: Arial;
+    font-weight: 700;
+    width: 361px;
+    height: 97px;
+}
+.Ref1{
+    color: #1D06A7;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 30px;
+}
+.class2{
+    margin:auto;
+    border: solid blue;
+    width: 960px;
+    height: 424px;
+    color: #F8F8F8;
+    background-color: #7299FE;
+    text-align: center;
+}
+.Ref2{
+    padding-top: 40px;
+    font-size:14px;
+    font-weight:400;
+    font-family: Arial;
+}
+.Ref3{
+    background: #D16FFF;
+    color: white;
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-right: 700px;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 3px white;
+    
+}
+.class3{
+    margin:auto;
+    margin-top: 0px;
+    border: solid blue;
+    width: 960px;
+    height:424px;
+    top: 949px;
+    background: #9022FF;
+}
+.Ref4{
+    color: #26CC4B;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Arial;
+    padding-top: 20px;
+    text-align: center;
+}
+.class4{
+    margin:auto;
+    margin-top: 0px;
+    border: solid blue;
+    width: 960px;
+    height: 424px;
+}
+.class5{
+    margin:auto;
+    margin-top: 0px;
+    border: solid blue;
+    width: 960px;
+    height: 258px;
+}
+.class6{
+    margin:auto;
+    margin-top: 0px;
+    border: solid blue;
+    width: 960px;
+    height: 578px;
+}
