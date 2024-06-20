@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column; /* Cambia la dirección del contenedor a columnas */
+            justify-content: space-around;
+            align-items: center; /* Alinea los elementos horizontalmente */
+            height: 300px; /* Aumenta la altura para acomodar los cuadros */
+            background-color: #a23030;
+            padding: 10px;
+        }
+        
+        .top-row,
+        .middle-row,
+        .bottom-row {
+            display: flex;
+            justify-content: space-around;
+            width: 100%; /* Ocupa todo el ancho del contenedor */
+        }
+        
+        .box {
+            border-radius: 10px;
+            width: 403px;
+            height: 20px;
+            background-color: white;
+            text-align: center;
+            line-height: 50px;
+            margin: 5px; /* Espacio entre los cuadros */
+        }
+    </style>
+    <title>Ejemplo de Flexbox con Cuadros Distribuidos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-row">
+            <div class="box">1</div>
+            <div class="box">2</div>
+        </div>
+        <div class="middle-row">
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <div class="bottom-row">
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

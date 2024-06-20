@@ -62,6 +62,9 @@ font-weight: 700;
     
 }
 .class3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     margin:auto;
     margin-top: 0px;
     border: solid blue;
@@ -70,12 +73,24 @@ font-weight: 700;
     top: 949px;
     background: #9022FF;
 }
+.top-row{
+width: 403px;
+height: 20px;
+background: #FFFFFF;
+margin-left: 67px;
+margin-top:20;
+border-radius: 10px;
+}
+
+
+
+
 .Ref4{
     color: #26CC4B;
     font-size: 36px;
     font-weight: 700;
     font-family: Arial;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 .class4{

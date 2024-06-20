@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--tablas html-->
+    <!--table-->
+    <!--tr-->
+    <!--th-->
+    <!--td-->
+
+    <!--ejemplo-->
+    <style>
+        table{
+            width: 50%;
+            border-collapse: collapse;
+        }
+        td , th{
+            border: 1px solid;
+            padding: 10px;
+            text-align: center;
+        }
+        td{
+            border: solid green;
+        }
+        th{border: solid green;
+            background-color: bisque;
+        }
+    </style>
+
+    <h2>tablas</h2>
+    <table>
+        <tr>
+            <th>NOMBRE</th>
+            <th>EDAD</th>
+            <th>CIUDAD</th>
+        </tr>
+        <tr>
+            <td rowspan="3">JORGE</td>
+            <td>27</td>
+            <td>LIMA</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>LIMA</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>LIMA</td>
+        </tr>
+    </table>
+
+    <!--Tablas de datos--><!--th:table head    td:table date-->
+    <table>
+        <caption>
+            DATOS DEL PERSONAL
+        </caption>
+        <thead>
+            <tr>
+                <th>
+                    NOMBRE
+                </th>
+                <th>
+                    EDAD
+                </th>
+                <th>
+                    CIUDAD
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><!--filas de manera horizontal-->
+                <td>
+                    JUAN
+                </td>
+                <td>
+                    45
+                </td>
+                <td>
+                    LIMA
+                </td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>34 </td>
+                <td>Lima</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3"><!--colspan ocupa la fila de forma horizontal-->
+                Total de registros:2
+            </td>
+        </tfoot>
+
+    </table>
+
+
+</body>
+</html>
