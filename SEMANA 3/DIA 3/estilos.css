@@ -1,7 +1,7 @@
 body{
     border: solid green;
     margin: auto;
-    height: 100vh;
+    height: 100vh; /* view height es para es la vista en la altura*/
 }
 header{border: solid;
     display: flex;

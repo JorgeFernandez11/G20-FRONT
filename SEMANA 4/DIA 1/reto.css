@@ -1,0 +1,25 @@
+.box1{
+    border: solid;
+    width: 200px;
+    height:170px;
+    animation-name: cambio-imagen;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes cambio-imagen{
+    0%{
+        background-image:url(./imagenes/imagen1.jpg);
+    }
+    25%{
+        background-image: url(./imagenes/images2.jpg);
+    }
+    50%{
+        background-image: url(./imagenes/images3.jpg) ;
+    }
+    75%{
+        background-image: url(./imagenes/imagen4.jpg);
+    }
+    100%{
+        background-image: url(./imagenes/images5.jpg);
+    }
+}

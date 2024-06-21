@@ -1,0 +1,79 @@
+.texto-animado{
+    border: solid blue;
+    animation-name:texto-volador;
+    animation-iteration-count:1;/*la cantidad de veces que hara la animacion*/
+    animation-duration: 5s;
+}
+/*@keyframes activa la animacion, se coloca el nombre de animation-name para que inicie*/
+@keyframes texto-volador{
+    from{
+        margin-left: 100%;
+        width: 300%;
+        background-color: aquamarine;
+        border-color: black;
+    }
+    to{
+        margin-left:-100%;
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    }
+}
+.resize{
+    border: solid 4px blue;
+    animation-name: redimensionado;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+@keyframes redimensionado{
+    from{
+        width: 500px;
+    }
+    to{
+        width: 100px;
+    }
+}
+.box{
+    border: solid 5px yellow;
+    width: 250px;
+    height: 250px;
+    animation-name: cambio-color;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambio-color{
+    from{
+        background-color: black;
+    }
+    to{background-color: blue;
+    }
+}
+.box1{
+    border: solid;
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    animation-name: cambio-color2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes cambio-color2{
+    0%{
+        background-color: blueviolet;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: gray;
+    }
+}
+
