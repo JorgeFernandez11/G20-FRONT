@@ -1,0 +1,19 @@
+.box-basic{
+    width: 150px;
+    height:150px;
+    border: solid red;
+    box-shadow:inset 5px 15px 10px red;
+    /* 15 px y 5px es la parte inferior y lateral y 10 px es la parte de profundidad del difuminado */
+    /* inset da la difuminacion por dentro */
+}
+.box-blur{
+    width: 150px;
+    height:150px;
+    border: solid rgb(52, 24, 205);
+    box-shadow: 5px 15px 15px rgba(0,0 ,0,0.5);
+}
+.box-spread{
+    width: 150px;
+    height:150px;
+    border: solid red;
+}

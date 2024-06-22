@@ -1,0 +1,15 @@
+/* linear gradient */
+.box{
+    width: 200px;
+    height: 200px;
+    border: solid orange;
+    background:linear-gradient(45deg , red ,blue , green)
+}
+/* radial gradient */
+.box1{
+    width: 200px;
+    height: 200px;
+    border: solid  3px  rgba(22, 22, 20, 0.982);
+    background: radial-gradient( green,red,yellow);
+    border-radius: 50%;
+}
