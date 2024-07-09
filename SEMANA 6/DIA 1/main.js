@@ -11,11 +11,14 @@
 // var numero = 15 casi no se usa por un ambito global -conflictos
 
 //Tipo de datos "Number"
-let numero1 = prompt("Ingresa el numero");  //let es para datos cambiantes
-let numero2 = prompt ("Ingresa el numero")
-let num1 = parseFloat(numero1);
-let num2 = parseFloat(numero2); //parsefloat lo convierte a numero , ya que inicialmente el prompt viene como string
-console.log(num1 * num2) 
+let numero1 = prompt("Ingresa el numero1");  //let es para datos cambiantes
+let numero2 = prompt ("Ingresa el numero2")
+// let num1 = parseFloat(numero1);
+// let num2 = parseFloat(numero2); //parsefloat lo convierte a numero , ya que inicialmente el prompt viene como string
+
+// console.log(num1)
+// console.log(num2)
+console.log(+numero1 + +numero2) //otra forma de convertir a numero es colocar el+ adelante del numero
 const pi = 3.14;   // const para variable fijas
 
 //Tipos de datos "String"
