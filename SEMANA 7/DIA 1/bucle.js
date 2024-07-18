@@ -121,11 +121,16 @@ const tecnologia= [
     
 // }
 
-for (let i = 0; i < tecnologia.length; i++) {
-    if(tecnologia[i].price < 3000)
-    console.log(tecnologia[i]) 
+// for (let i = 0; i < tecnologia.length; i++) {
+//     if(tecnologia[i].price < 3000)
+//     console.log(tecnologia[i]) 
     
-}
+// }
+
+tecnologia.map((p) =>{
+    p.price = p.price *2
+})
+console.log(tecnologia)
 
 //el map con for son iguales solo que uno es mas resumido que el otro
 

@@ -1,0 +1,31 @@
+:root{
+    --clr-bcg:#fff;
+    --clr-font:#282c35;
+    --clr-primary:#d23699;
+    --clr-grey:#64748b;
+}
+
+.dark-mode{
+    --clr-bcg:#282c35;
+    --clr-font:#fff;
+    --clr-primary:#d23699;
+    --clr-grey:#64748b;
+}
+
+.red-theme{
+    --clr-bcg:rgb(0, 21, 255);
+    --clr-font:#fff;
+    --clr-primary:#7b2caf;
+    --clr-grey:#262a30;
+}
+
+.btn{
+    background: var(--clr-primary);
+    color: var(--clr-bcg);
+
+}
+
+body{
+    background: var(--clr-bcg);
+    color: var(--clr-font);
+}
