@@ -43,3 +43,21 @@ const convertirFilter = convertir.filter(
 );
 
 console.log('iterado', convertirFilter)
+
+//darkmode
+function CambiaColor (){
+    const color = document.getElementById('darkmode')
+    color.style.backgroundColor = "green"
+}
+
+function CambiaTexto(){
+    const texto = document.querySelector('#change')
+    texto.textContent = "Bienvenidos"
+}
+
+function CambiaTextoColor(){
+    const textoColor = document.querySelector('#modificado')
+    textoColor.textContent = "Bienvenidos , cambie de color y texto "
+    textoColor.style.color = "#fff      "
+    textoColor.style.backgroundColor = "blue"
+}
